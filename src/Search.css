@@ -1,0 +1,87 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type='text'] {
+    width: 200px;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .profile-container {
+    margin-top: 20px;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+  
+  .avatar-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-info {
+    margin-left: 20px;
+    text-align: left;
+  }
+  
+  .repository-container {
+    text-align: left;
+  }
+  
+  .repository-container h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .repository-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .repository-list li {
+    margin-bottom: 5px;
+  }
+  
+  .repository-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .repository-link:hover {
+    text-decoration: underline;
+  }
+  
